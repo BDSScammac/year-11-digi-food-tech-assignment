@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="style4.css">
+  <meta charset="utf-8">
+  <title>Slideshow</title>
+</head>
+
+<body>
+  <div id="main">
+    <span style="font-size:60px;cursor:pointer; color: white;" onclick="openNav()">&#9776;</span>
+  </div>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">home</a>
+    <a href="egg.html">egg on toast</a>
+    <a href="jellies.html">jellies</a>
+    <a href="blini.html">blini</a>
+    <a href="cucumber.html">cucumber canapes</a>
+    <a href="slideshow.html">slideshow</a>
+    <a href="about.html">about</a>
+  </div>
+  <h1>food slideshow</h1>
+  <div class="slidercontainer">
+    <div class="showSlide fade">
+      <img src="image/egg.jpg">
+      <div class="content">Egg</div>
+    </div>
+    <div class="showSlide fade">
+      <img src="image/blini.jpg">
+      <div class="content">Blini</div>
+    </div>
+    <div class="showSlide fade">
+      <img src="image/roast.jpg">
+      <div class="content">Roast</div>
+    </div>
+    <div class="showSlide fade">
+      <img src="image/melon.jpg">
+      <div class="content">Melon</div>
+    </div>
+    <div class="showSlide fade">
+      <img src="image/mozarella.jpg">
+      <div class="content">Mozarella</div>
+    </div>
+    <div class="showSlide fade">
+      <img src="image/shrimp.jpg">
+      <div class="content">Shimp</div>
+    </div>
+    <div class="showSlide fade">
+      <img src="image/salmon.jpg">
+      <div class="content">Salmon</div>
+    </div>
+    <div class="showSlide fade">
+      <img src="image/sweetpotato.jpg">
+      <div class="content">Sweetpotato</div>
+    </div>
+    <div class="showSlide fade">
+      <img src="image/ricotta.jpg">
+      <div class="content">Ricotta</div>
+    </div>
+    <div class="showSlide fade">
+      <img src="image/quiche.jpg">
+      <div class="content">Quiche</div>
+    </div>
+    <div class="showSlide fade">
+      <img src="image/jellies.jpg">
+      <div class="content">Jellies</div>
+    </div>
+    <a class="left" onclick="nextSlide(-1)">❮</a>
+    <a class="right" onclick="nextSlide(1)">❯</a>
+  </div>
+  <script type="text/javascript">
+    var slide_index = 1;
+    displaySlides(slide_index);
+
+    function nextSlide(n) {
+      displaySlides(slide_index += n);
+    }
+
+    function currentSlide(n) {
+      displaySlides(slide_index = n);
+    }
+
+    function displaySlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("showSlide");
+      if (n > slides.length) {
+        slide_index = 1
+      }
+      if (n < 1) {
+        slide_index = slides.length
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[slide_index - 1].style.display = "block";
+    }
+
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginright = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginright = "0";
+    }
+  </script>
+</body>
+
+</html>

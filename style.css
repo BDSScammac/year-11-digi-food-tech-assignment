@@ -1,7 +1,8 @@
 body, html {
   height: 100%;
-  background-color: #C8F1F7;
+  background-color: #f5751d;
 }
+
 .parallax {
   background-image: url("image/quiche.jpg");
   min-height: 500px;
@@ -10,25 +11,68 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.numtwo {
+  background-image: url("image/salmon.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.numthree {
+  background-image: url("image/salmon.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.numfour {
+  background-image: url("image/both.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 img {
   width: 32%;
-  border: 10px solid #C8F1F7;
+  border: 10px solid #db513b;
+  clip-path: circle();
+  height: 50vh;
 }
+
 .row {
   width: 100%;
   margin-bottom: 30px;
-  background-color: #C8F1F7;
-
+  background-color: #db513b;
   display: flex;
 }
-h1{
+
+h1 {
   text-align: center;
   font-size: 80px;
-  color: #C6ABE0;
+  color: #FFFFFF;
+  font-family: 'Lobster', cursive;
 }
+
+p {
+  font-family: 'Comfortaa', cursive;
+  padding: 2vh;
+}
+
 .item {
-width: 40%;
+  width: 40%;
 }
+
+.symbol {
+  width: 10%;
+}
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -65,8 +109,7 @@ width: 40%;
 
 #main {
   transition: margin-left .5s;
-float: right;
+  float: left;
 }
-
 
 /* #C8F1F7 #FFC65C #A1CC85 #C6ABE0 #FFCEC2*/
