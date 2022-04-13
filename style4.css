@@ -1,5 +1,5 @@
 body {
-  background-color: #db513b;
+  background-color: #FFFEE3;
 }
 
 h1 {
@@ -12,6 +12,11 @@ img {
   width: 50vh;
   height: 80vh;
 }
+
+.open {
+  color: black;
+}
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -90,7 +95,7 @@ img {
 }
 
 .content {
-  color: #black;
+  color: black;
   font-size: 30px;
   padding: 8px 12px;
   position: absolute;
@@ -123,8 +128,4 @@ img {
 @keyframes fade {
   from {
     opacity: .4
-  }
-
-  to {
-    opacity: 1
   }

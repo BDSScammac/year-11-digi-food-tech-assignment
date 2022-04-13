@@ -1,24 +1,47 @@
 body {
-  background-color: #FFFEE3;
+  background-color: #fffee3;
 }
 
 h1 {
-  font-family: 'Lobster', cursive;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 80px;
   font-size: 80px;
-  text-align: center;
+  margin-left: 10px;
+  color: white;
+  position: absolute;
 }
 
 p {
-  font-family: 'Comfortaa', cursive;
-  font-size: 4vh;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
 }
 
-video {
-  margin-left: 12%;
-  margin-top: -8vh;
+.container {
+  margin-left: 10px;
+  width: 40%;
 }
-.open{
-  color: black;
+
+img {
+  border: 10px;
+  width: 100%;
+  height: 40vh;
+}
+
+.row {
+  display: flex;
+}
+
+.item {
+  width: 40%;
+  height: 40%;
+  margin-left: 60px;
+}
+
+.item {
+  width: 40%;
+}
+.item2 {
+  width: 60%;
 }
 .symbol {
   width: 10%;
@@ -57,7 +80,6 @@ video {
   font-size: 36px;
   margin-left: 50px;
 }
-
 #main {
   transition: margin-left .5s;
   float: left;

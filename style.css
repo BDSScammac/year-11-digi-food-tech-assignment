@@ -1,6 +1,6 @@
 body, html {
   height: 100%;
-  background-color: #f5751d;
+  background-color: #F5E50C;
 }
 
 .parallax {
@@ -41,15 +41,14 @@ body, html {
 
 img {
   width: 32%;
-  border: 10px solid #db513b;
-  clip-path: circle();
+  border: 10px solid #F7F0C1;
+  border-radius: 60%;
   height: 50vh;
 }
-
 .row {
   width: 100%;
   margin-bottom: 30px;
-  background-color: #db513b;
+  background-color: #F7F0C1;
   display: flex;
 }
 
@@ -68,7 +67,9 @@ p {
 .item {
   width: 40%;
 }
-
+.item2 {
+  width: 60%;
+}
 .symbol {
   width: 10%;
 }
@@ -106,10 +107,9 @@ p {
   font-size: 36px;
   margin-left: 50px;
 }
-
 #main {
   transition: margin-left .5s;
   float: left;
 }
 
-/* #C8F1F7 #FFC65C #A1CC85 #C6ABE0 #FFCEC2*/
+/*http://guywithoutidea.github.io/Loki-Arma/*/

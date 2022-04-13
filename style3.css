@@ -1,5 +1,5 @@
 body {
-  background-color: #db513b;
+  background-color: #FFFEE3;
 
 }
 
@@ -21,13 +21,15 @@ p {
 
 img {
   width: 50%;
-  clip-path: circle();
+  border-radius: 60%;
 }
 
 video {
   margin-left: 100px;
 }
-
+.open{
+  color: black;
+}
 .row {
   display: flex;
 }
