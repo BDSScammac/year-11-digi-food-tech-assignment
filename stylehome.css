@@ -2,7 +2,17 @@ body, html {
   height: 100%;
   background-color: #F5E50C;
 }
-.numthree {
+/* parallax taken from w3c*/
+.parallax {
+  background-image: url("image/quiche.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.numtwo {
   background-image: url("image/salmon.jpg");
   min-height: 500px;
   background-attachment: fixed;
@@ -11,20 +21,12 @@ body, html {
   background-size: cover;
 }
 
-.numfour {
-  background-image: url("image/both.jpg");
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 img {
-  width: 48%;
+  width: 32%;
   border: 10px solid #F7F0C1;
   border-radius: 60%;
-  height: 80vh;
+  height: 50vh;
 }
 .row {
   width: 100%;
@@ -44,9 +46,6 @@ p {
   font-family: 'Comfortaa', cursive;
   padding: 2vh;
 }
-.open{
-  color: black;
-}
 
 .item {
   width: 40%;
@@ -57,7 +56,7 @@ p {
 .symbol {
   width: 10%;
 }
-
+/* menu taken from w3schools*/
 .sidenav {
   height: 100%;
   width: 0;
@@ -95,5 +94,3 @@ p {
   transition: margin-left .5s;
   float: left;
 }
-
-/*http://guywithoutidea.github.io/Loki-Arma/*/

@@ -1,52 +1,29 @@
 body {
-  background-color: #fffee3;
+  background-color: #FFFEE3;
 }
 
 h1 {
-  font-family: 'Oswald', sans-serif;
-  margin-top: 80px;
+  font-family: 'Lobster', cursive;
   font-size: 80px;
-  margin-left: 10px;
-  color: white;
-  position: absolute;
+  text-align: center;
 }
 
 p {
-  font-family: 'Oswald', sans-serif;
-  font-size: 30px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 4vh;
 }
 
-.container {
-  margin-left: 10px;
-  width: 40%;
+video {
+  margin-left: 12%;
+  margin-top: -8vh;
 }
-
-img {
-  border: 10px;
-  width: 100%;
-  height: 40vh;
-}
-
-.row {
-  display: flex;
-}
-
-.item {
-  width: 40%;
-  height: 40%;
-  margin-left: 60px;
-}
-
-.item {
-  width: 40%;
-}
-.item2 {
-  width: 60%;
+.open{
+  color: black;
 }
 .symbol {
   width: 10%;
 }
-
+/* menu taken from w3schools*/
 .sidenav {
   height: 100%;
   width: 0;
@@ -80,6 +57,7 @@ img {
   font-size: 36px;
   margin-left: 50px;
 }
+
 #main {
   transition: margin-left .5s;
   float: left;

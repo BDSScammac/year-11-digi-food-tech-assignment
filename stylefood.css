@@ -1,25 +1,39 @@
 body {
   background-color: #FFFEE3;
+
 }
 
 h1 {
   font-family: 'Lobster', cursive;
   font-size: 80px;
+  margin-left: 10px;
   text-align: center;
 }
 
 p {
   font-family: 'Comfortaa', cursive;
-  font-size: 4vh;
+  font-size: 20px;
+}
+.container {
+  margin-left: 10px;
+  width: 40%;
+}
+
+img {
+  width: 50%;
+  border-radius: 60%;
 }
 
 video {
-  margin-left: 12%;
-  margin-top: -8vh;
+  margin-left: 100px;
 }
 .open{
   color: black;
 }
+.row {
+  display: flex;
+}
+/* menu taken from w3schools*/
 .symbol {
   width: 10%;
 }
